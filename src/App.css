@@ -1,0 +1,15 @@
+#container{
+  margin-top: 10px;
+}
+.Section{
+  width:100%;
+}
+.Display_Section{
+  margin-left: 200px;
+}
+
+@media (max-width: 992px) {
+  .Display_Section{
+    margin-left: 0px;
+  }
+}
