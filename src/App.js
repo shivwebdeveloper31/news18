@@ -4,11 +4,11 @@ import './App.css';
 import SideBar from "./Components/SideBar";
 import { Route, Routes } from 'react-router-dom';
 import Home from './Components/Pages/Home';
-import Network_issue from './Components/Pages/Network_issue';
-import GA_issue from './Components/Pages/GA_issue';
-import Technical_issue from './Components/Pages/Technical_issue';
+import Network_issue from './Components/Pages/NetworkIssue';
+import GA_issue from './Components/Pages/GAIssue';
+import Technical_issue from './Components/Pages/TechnicalIssue';
 import Purged from './Components/Pages/Purged';
-import Human from './Components/Pages/Human_Error';
+import Human from './Components/Pages/HumanError';
 import Cache from './Components/Pages/Cache';
 
 function App() {

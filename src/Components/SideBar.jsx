@@ -1,6 +1,4 @@
 import React, { useState } from 'react';
-import SideBar from "../Components/SideBar.scss";
-import { detectOverflow } from '@popperjs/core';
 import { NavLink } from 'react-router-dom';
 import {
     MDBContainer,
@@ -12,13 +10,11 @@ import {
     MDBNavbarItem,
     MDBNavbarLink,
     MDBDropdown,
-    MDBDropdownToggle,
     MDBDropdownMenu,
     MDBDropdownItem,
     MDBDropdownLink,
     MDBCollapse,
     MDBRipple,
-    MDBBadge,
     MDBInput,
     MDBListGroup,
     MDBListGroupItem
