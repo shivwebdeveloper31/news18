@@ -1,6 +1,6 @@
 import React from 'react'
 
-const GA_issue = () => {
+const GAIssue = () => {
     return (
         <div><h2>Google Authenticator Issue</h2>
             <h4>Problem:</h4>
@@ -21,4 +21,4 @@ const GA_issue = () => {
     )
 }
 
-export default GA_issue;
+export default GAIssue;

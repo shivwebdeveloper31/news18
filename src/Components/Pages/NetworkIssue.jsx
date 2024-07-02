@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Network_issue = () => {
+const NetworkIssue = () => {
     return (
         <div>
             <h2>Network Issue</h2>
@@ -27,4 +27,4 @@ const Network_issue = () => {
     )
 }
 
-export default Network_issue;
+export default NetworkIssue;

@@ -4,9 +4,9 @@ import './App.css';
 import SideBar from "./Components/SideBar";
 import { Route, Routes } from 'react-router-dom';
 import Home from './Components/Pages/Home';
-import Network_issue from './Components/Pages/NetworkIssue';
-import GA_issue from './Components/Pages/GAIssue';
-import Technical_issue from './Components/Pages/TechnicalIssue';
+import NetworkIssue from './Components/Pages/NetworkIssue';
+import GAIssue from './Components/Pages/GAIssue';
+import TechnicalIssue from './Components/Pages/TechnicalIssue';
 import Purged from './Components/Pages/Purged';
 import Human from './Components/Pages/HumanError';
 import Cache from './Components/Pages/Cache';
@@ -22,9 +22,9 @@ function App() {
           <div className='Display_Section'>
             <Routes>
               <Route path="/" element={<Home />} />
-              <Route path="/network" element={<Network_issue />} />
-              <Route path="ga" element={<GA_issue/>} />
-              <Route path="technical" element={<Technical_issue/>} />
+              <Route path="/network" element={<NetworkIssue />} />
+              <Route path="ga" element={<GAIssue/>} />
+              <Route path="technical" element={<TechnicalIssue/>} />
               <Route path="purged" element={<Purged/>} />
               <Route path="human" element={<Human/>} />
               <Route path="cache" element={<Cache/>} />

@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Technical_issue = () => {
+const TechnicalIssue = () => {
     return (
         <div>
             <h2>Technical Issue</h2>
@@ -32,4 +32,4 @@ const Technical_issue = () => {
     )
 }
 
-export default Technical_issue;
+export default TechnicalIssue;
