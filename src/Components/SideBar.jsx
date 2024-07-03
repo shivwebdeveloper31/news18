@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import SideBar from "../Components/SideBar.scss";
+import "../Components/SideBar.scss";
 import { NavLink } from 'react-router-dom';
 import {
     MDBContainer,
